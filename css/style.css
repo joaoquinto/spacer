@@ -1,0 +1,82 @@
+/* Fonte de titúlo */
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/static/Raleway-Light.ttf");
+}
+
+/* Fonte de corpo */
+@font-face {
+  font-family: "Raleway";
+  src: url("../assets/fonts/static/Raleway-Medium.ttf");
+}
+
+main {
+  background: url("../assets/img/first-section/Photo-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 50% bottom 40%;
+  height: 803px;
+  display: flex;
+  flex-direction: column;
+}
+
+#container-logo {
+  display: flex;
+  margin-bottom: 219px;
+}
+
+#logo-spacer a img {
+  margin: 17px 13px 0 20px;
+}
+
+#title-logo p {
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 20px 0 0;
+}
+
+#container-spacer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 13px;
+  background: rgb(0 0 1 / 85%);
+  width: calc(100% - 26px);
+  padding: 57.5px 0;
+  flex: 0 0 calc(33.3333333333% - 26px);
+}
+
+#title-spacer h1 {
+  color: #ffff;
+  font-family: "Montserrat";
+  font-size: 2.125em;
+  letter-spacing: 8.71px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#efect-spacer {
+  margin: 19px 0;
+}
+
+#efect-spacer p {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 0.625em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#call-to-action-spacer a {
+  background: #43e094;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 0.563em;
+  text-transform: uppercase;
+  padding: 11px 20px;
+  opacity: 1;
+}
