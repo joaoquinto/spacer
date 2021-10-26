@@ -1,0 +1,15 @@
+@media (min-width: 600px) {
+  main {
+    background-position: right 50% bottom 0%;
+  }
+
+  #logo-spacer a img {
+    margin-left: 54px;
+  }
+
+  #container-spacer {
+    width: 310px;
+    flex: 0 0 calc(33.3333333333%);
+    margin: 0 auto;
+  }
+}
