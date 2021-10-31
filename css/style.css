@@ -73,7 +73,7 @@ main {
   text-align: center;
 }
 
-#call-to-action-spacer a {
+.call-to-action-spacer a {
   background: #43e094;
   color: #ffffff;
   font-family: "Raleway";
