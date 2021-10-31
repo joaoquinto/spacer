@@ -27,6 +27,8 @@ main {
 
 #logo-spacer a img {
   margin: 17px 13px 0 20px;
+  width: 21px;
+  height: 24px;
 }
 
 #title-logo p {
