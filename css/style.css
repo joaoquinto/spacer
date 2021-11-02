@@ -82,3 +82,50 @@ main {
   padding: 11px 20px;
   opacity: 1;
 }
+
+#container-about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#container-about #photo-about {
+  background: url("../assets/img/about/Photo-2.png");
+  width: 100%;
+  height: 320px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 35% bottom 40%;
+  order: 2;
+}
+
+@media handheld, (orientation: landscape) and (max-width: 653px) {
+  #container-about #photo-about {
+    background-position: left 38.5% bottom 40%;
+  }
+}
+
+#text-about {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 22px;
+  flex: 0 0 calc(276px - 44px);
+  justify-content: center;
+  align-self: center;
+  order: 1;
+}
+
+#text-about li:nth-child(1) {
+  margin-bottom: 19px;
+}
+
+#text-about li h2 {
+  font-family: "Montserrat";
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+#text-about li p {
+  font-family: "Raleway";
+  color: #6f6f6f;
+  font-size: 0.8em;
+}
