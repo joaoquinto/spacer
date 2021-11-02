@@ -12,4 +12,43 @@
     flex: 0 0 calc(33.3333333333%);
     margin: 0 auto;
   }
+
+  #container-about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #container-about #photo-about {
+    width: 50%;
+    order: 1;
+  }
+
+  #text-about {
+    margin: 0 10px;
+    flex: 0 0 calc(50% - 20px);
+    order: 2;
+  }
+
+  #text-about li {
+    align-self: center;
+    width: 450px;
+  }
+
+  #text-about li:nth-child(1) {
+    margin-bottom: 19px;
+  }
+
+  #text-about li h2 {
+    font-family: "Montserrat";
+    font-size: 1.2em;
+    text-transform: uppercase;
+    align-self: center;
+  }
+  #text-about li p {
+    font-family: "Raleway";
+    color: #6f6f6f;
+    font-size: 0.8em;
+    align-self: center;
+  }
 }
