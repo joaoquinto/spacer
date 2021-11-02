@@ -14,4 +14,4 @@ Uma landing page de uma plataforma de co-working
 
 ## Nest Hub
 
-<img src="./assets/screenshots/Nesthub-2v.png" width="1024px" heigth="600px">
+<img src="./assets/screenshots/NestHub-2v.png" width="1024px" heigth="600px">
