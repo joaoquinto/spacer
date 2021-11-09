@@ -72,6 +72,10 @@
     flex: 0 0 calc(238px - 80px);
   }
 
+  .container-services ul:nth-child(3) {
+    margin-right: 0px;
+  }
+
   .container-item {
     background: #ffffff;
     margin: 0 29px 20px 0;
