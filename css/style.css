@@ -129,3 +129,51 @@ main {
   color: #6f6f6f;
   font-size: 0.8em;
 }
+
+#services {
+  background: #d8d8d8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#title-services {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 1em;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 44px 0 28px;
+}
+
+.container-services {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 40px;
+  flex: 0 0 calc(238px - 80px);
+}
+
+.container-item {
+  background: #ffffff;
+  margin: 0 0 20px 0;
+  padding: 30px;
+}
+
+.container-item li {
+  margin-bottom: 16px;
+}
+
+.container-item li h3 {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 0.625em;
+  color: #000;
+}
+
+.container-item li p {
+  font-family: "Raleway";
+}

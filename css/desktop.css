@@ -52,3 +52,33 @@
     align-self: center;
   }
 }
+
+@media (min-width: 800px) {
+  #title-services {
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 1em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 44px 0 28px;
+  }
+
+  .container-services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 40px;
+    flex: 0 0 calc(238px - 80px);
+  }
+
+  .container-item {
+    background: #ffffff;
+    margin: 0 29px 20px 0;
+    padding: 30px;
+  }
+
+  .container-item li {
+    margin-bottom: 16px;
+  }
+}
