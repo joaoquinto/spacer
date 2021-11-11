@@ -136,6 +136,7 @@ main {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding-bottom: 30px;
 }
 
 #title-services {
@@ -178,4 +179,59 @@ main {
   font-family: "Raleway";
   font-size: 0.8em;
   font-weight: 500;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container-gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-gallery li {
+  width: 100%;
+  padding: 171px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-gallery #privet {
+  background: url("../assets/img/gallery/privet.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 50% bottom 45%;
+}
+
+.container-gallery #open-space {
+  background: url("../assets/img/gallery/open-space.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-gallery #meeting-rooms {
+  background: url("../assets/img/gallery/meeting.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 19% bottom 45%;
+}
+
+.container-gallery #community {
+  background: url("../assets/img/gallery/community.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-gallery h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1em;
+  color: #fff;
+  letter-spacing: 8px;
 }
