@@ -51,6 +51,34 @@
     font-size: 0.8em;
     align-self: center;
   }
+  .container-gallery {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container-gallery li {
+    width: 100%;
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container-gallery #privet {
+    background-position: center bottom;
+  }
+
+  .container-gallery #open-space {
+    background-position: center bottom;
+  }
+
+  .container-gallery #meeting-rooms {
+    background-position: center bottom;
+  }
+
+  .container-gallery #community {
+    background-position: center bottom;
+  }
 }
 
 @media (min-width: 800px) {
