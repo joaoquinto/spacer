@@ -79,6 +79,27 @@
   .container-gallery #community {
     background-position: center bottom;
   }
+
+  #information p {
+    width: 500px;
+  }
+
+  #container-location {
+    display: flex;
+  }
+
+  #maps,
+  #spacer-location {
+    flex: 0 0 50%;
+  }
+
+  #maps {
+    background-position: unset;
+  }
+
+  #spacer-location {
+    background-position: center bottom;
+  }
 }
 
 @media (min-width: 800px) {

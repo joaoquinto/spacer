@@ -75,7 +75,8 @@ main {
 
 .call-to-action-spacer a {
   background: #43e094;
-  color: #ffffff;
+  color: #363636;
+  font-weight: 600;
   font-family: "Raleway";
   font-size: 0.563em;
   text-transform: uppercase;
@@ -234,4 +235,121 @@ main {
   font-size: 1em;
   color: #fff;
   letter-spacing: 8px;
+}
+
+#information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 108px 0;
+}
+
+#information p {
+  width: 266px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  color: #000;
+  letter-spacing: 1.5px;
+}
+
+#maps {
+  background: url("../assets/img/location/map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left 50%;
+  width: 100%;
+  height: 311px;
+}
+
+#spacer-location {
+  background: url("../assets/img/location/spacer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right 30%;
+  width: 100%;
+  height: 311px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#info-location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#info-location li {
+  margin-bottom: 19px;
+}
+
+#info-location h2 {
+  color: #ffff;
+  font-family: "Montserrat";
+  font-size: 2.125em;
+  letter-spacing: 8.71px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#info-location address,
+address a {
+  font-family: "Raleway";
+  font-size: 0.9em;
+  color: #fff;
+}
+
+#social {
+  background: #000;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#container-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#container-social li {
+  margin-bottom: 21px;
+}
+
+#container-social li:nth-child(4) {
+  margin-bottom: 0;
+}
+
+#container-social h2 {
+  font-family: "Montserrat";
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#container-social address {
+  font-family: "Raleway";
+  text-align: center;
+  color: #fff;
+  width: 206px;
+  font-size: 0.9em;
+}
+
+#container-social a {
+  font-family: "Montserrat";
+  color: #43e094;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+#redes-social {
+  display: flex;
+  width: 145px;
+  align-items: center;
+}
+
+#redes-social li {
+  margin: 0 5px;
 }
